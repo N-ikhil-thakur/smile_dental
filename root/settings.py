@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4npcnvzj9%6h41p-u50b^9!betz2b581#i$=x6i9*u5g9*!-(6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["smile-dental-care.herokuapp.com" , 'localhost' , '192.168.1.105' ]
 

@@ -1,4 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Open+Sans&family=Piedra&family=Roboto&display=swap');
+
+:root {
+  --primary-color: #db2b39;
+  --secondary-color: #29335C;
+  --light-color: #ffffff;
+  --dark-color: #464c5d;
+  --highlight-color: rgb(253, 249, 7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
-    background: rgb(175, 94, 94);
-    color: aliceblue;
+  height: 100%;
+  background: #000;
+}
+
+body {
+  background: var(--secondary-color);
+  /* overflow: hidden; */
+}
+
+.root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.icon {
+  display: block;
+  background-image: url('/static/images/happy.svg');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.company-name {
+  color: var(--light-color);
+  margin-bottom: 30px;
+  background: #000;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Piedra', cursive;
+  letter-spacing: 2px;
+}
+
+.smile {
+  color: var(--highlight-color);
+}
+
+.developer {
+  position: fixed;
+  bottom: 2%;
+  font-size: 16px;
+  color: var(--light-color);
+}
+
+.developer-name {
+  color: var(--primary-color);
+}
+
+
+.slogan {
+  color: var(--light-color);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.life {
+  color: var(--primary-color);
+}
+
+.smile {
+  color: var(--highlight-color);
 }
